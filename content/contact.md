@@ -7,7 +7,4 @@ disable_comments: true
 
 ---
 
-# You may contact me through the nearest wormhole
-
-This is where my great contact goes
-
+Contact SATO Travel
