@@ -4,13 +4,12 @@ subtitle = "The South America Travel Specialist"
 languageCode = "en-us"
 # preservetaxonomynames = true
 theme = "hugo-travelify-theme"
-GoogleAnalytics = "" # Add your own Google analytics code here in the format UA-XXXXXXXX-X
 canonifyURLs = true
 # rssURI = "feed/" #deprecated feature
 
 [params]
     # Tell me who you are
-    author = "nikimonikado"
+    author = "SATO Travels"
     site_description = "The South America Travel Specialist"
     copyright  = "Copyright"
 #    avatar = "avatar.png"
@@ -34,64 +33,49 @@ canonifyURLs = true
 
 
 [[menu.main]]
-    name  = "About"
+    name  = "About Us"
     url   = "/about/"
     weight = 10
 
 [[menu.main]]
-    name  = "contact"
+    name  = "Contact Us"
     url   = "/contact/"
     weight = 20
 
-[[menu.main]]
-    name  = "Contact2"
-    url   = "/contact/"
-    parent = "contact"
+#[[menu.main]]
+#    name  = "Contact2"
+#    url   = "/contact/"
+#    parent = "contact"
 
-[[menu.main]]
-    name  = "Contact21"
-    url   = "/contact/"
-    parent = "Contact2"
-    weight = 20
-
-[[menu.main]]
-    name  = "cOntact22"
-    url   = "/contact/"
-    parent = "Contact2"
-    weight = 10
-
-[[menu.main]]
-    name  = "cOntact3"
-    url   = "/contact/"
-    parent = "contact"
 
 [params.share]
     enable = true
     facebook = true
     twitter = true
-    googleplus = true
-    linkedin = true
+    googleplus = false
+    linkedin = false
     email = true
 
 [params.privacy]
 enable = true # false implies switching on tracking application, you can individually turn off applications that you don't want. If enable = true, then all tracking apps are switched off
 facebook_like = true
 DisqusShortname = "nikimonikado"
+googleTagManager = "GTM-N2XNF3X" # Add your own Google analytics code here in the format UA-XXXXXXXX-X
 
 [social]
 # Add your social network accounts to the profile section on the left
 # by entering your username. The links to your account will be
 # created automatically.
     rss             = "Needed" # leave this to blank if you do not want RSS feed icon to appear on top
-    github          = "nikimonikado"
-    flickr          = "nikimonikado"
-    instagram       = "nikimonikado"
+    github          = ""
+    flickr          = ""
+    instagram       = ""
     youtube         = "nikimonikado"
-    vimeo           = "nikimonikado"
-    tumblr          = "nikimonikado"
-    linkedin        = "nikimonikado"
-    pinterest       = "nikimonikado"
-    googleplus      = "nikimonikado"
+    vimeo           = ""
+    tumblr          = ""
+    linkedin        = ""
+    pinterest       = ""
+    googleplus      = ""
     facebook        = "nikimonikado"
     twitter         = "nikimonikado"
     email           = "joe@example.com"
@@ -99,19 +83,19 @@ DisqusShortname = "nikimonikado"
 # Enable and disable widgets for the right sidebar
 [params.widgets]
     recent_articles = true
-    categories = true
+    categories = false
     tags = true
     tag_cloud = true
     archives = false # This feature is yet to be implemented because of limitations in Hugo's way of working.
-    search = true
-    mailchimp = true
+    search = false
+    mailchimp = false
     mailchimpform = "//balaramadurai.us15.list-manage.com/subscribe/post?u=7f4183fa2fe7abe3dc9f4efad&amp;id=49a3dd3745"
-    author = true
+    author = false
 
 [params.slider]
     enable = true
-    manual = false # Setting manual to true renders the slide selection to only those where the post has a slider=true option enabled
-    num_features = 6 # The slider picks up the banner images from the N most recent posts, where num_features is N.
+    manual = true # Setting manual to true renders the slide selection to only those where the post has a slider=true option enabled
+    num_features = 0 # The slider picks up the banner images from the N most recent posts, where num_features is N.
 
 [Taxonomies]
     tags = "tags"

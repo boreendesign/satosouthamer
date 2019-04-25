@@ -1,5 +1,5 @@
 [articles]
-    read_more = "Read More"
+    read_more = "Learn More"
     words = "words"
     readingtime = "minute read"
     share = "Share this:"
@@ -48,12 +48,12 @@
 	linkedin = "Share"
 	email = "Email"
 	emailmessage = "Hello there, I would to share this article with you"
-	
+
 [widgets.categories]
     title = "Categories"
 
 [widgets.recent_articles]
-    title = "Recent Posts"
+    title = "Our Packages"
 
 [widgets.tag_cloud]
     title = "Tag cloud"

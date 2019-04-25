@@ -68,7 +68,7 @@ body,input,textarea,article {
 	-ms-word-wrap: break-word;
 }
 body {
-	border-top: 6px solid #57ad68;
+	border-top: 6px solid #009AFF;
 }
 hr {
 	border-color: #eaeaea;
@@ -538,7 +538,7 @@ a.more-link:hover {
 }
 #site-logo {
 	float: left;
-	margin-top: 32px;
+	margin-top: 0px;
 }
 #site-title {
 	font: 36px 'Ubuntu', sans-serif;
@@ -550,7 +550,7 @@ a.more-link:hover {
 }
 #site-title a img {
 	vertical-align: inherit;
-	max-width: 978px;
+	max-width: 278px;
 }
 #site-title a span,#site-title a:hover,#site-title a:focus,#site-title a:active {
 	color: #439f55;
@@ -563,7 +563,7 @@ a.more-link:hover {
 }
 .hgroup-right {
 	float: right;
-	margin-top: 38px;
+	margin-top: 0px;
 }
 /* Social Profiles */
 .social-icons {
@@ -1844,14 +1844,14 @@ article {
 		width: 95%;
 	}
 	#site-title a img {
-		max-width: 668px;
+		max-width: 200px;
 	}
 	.no-sidebar-template #content {
 		margin: 0;
 		width: 100%;
 	}
 	#site-logo {
-		margin-left: 20px;
+		margin-left: 0px;
 	}
 	.page-title {
 		padding-left: 30px;
@@ -1927,7 +1927,7 @@ article {
 		display: none;
 	}
 	#site-logo {
-		margin-top: 25px;
+		margin-top: 0px;
 	}
 	#site-title a img {
 		max-width: 280px;
@@ -2044,7 +2044,7 @@ article {
 		margin-top: 37px;
 	}
 	#site-logo {
-		margin-top: 30px;
+		margin-top: 0px;
 	}
 	#site-title a img {
 		max-width: 420px;

@@ -5,7 +5,7 @@
     </h3>
     <div class="rpwe-block">
         <ul class=" rpwe-ul">
-            {{ range first 5 (where .Site.Pages "Type" "post") }}
+            {{ range first 4 (where .Site.Pages "Type" "post") }}
             <li class="rpwe-il rpwe-classfix">
                 <a class="rpwe-img" href="{{ .Permalink }}" class="thumbnail">
 		    {{ if and (isset .Params "banner") (not (eq .Params.banner "")) }}
@@ -17,7 +17,7 @@
                 <h3 class="rpwe-title">
 		    <a href="{{ .Permalink }}" title="Permalink to {{ .Title }}" >{{ .Title }}</a>
 		</h3>
-                <time class="rpwe-time published" datetime="{{ .Date }}">{{ .Date.Format .Site.Params.date_format }}</time>
+                <!--<time class="rpwe-time published" datetime="{{ .Date }}">{{ .Date.Format .Site.Params.date_format }}</time>-->
             </li>
             {{ end }}
         </ul>

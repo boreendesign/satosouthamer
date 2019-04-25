@@ -3,7 +3,7 @@ title = "10 Day South America"
 date = "2015-10-02T21:49:20+02:00"
 tags = ["Argentina"]
 categories = ["programming"]
-menu = "main"
+#menu = "main"
 banner = "banners/spain6-1018x460.jpg"
 +++
 
