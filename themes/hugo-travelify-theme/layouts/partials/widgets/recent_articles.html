@@ -5,7 +5,7 @@
     </h3>
     <div class="rpwe-block">
         <ul class=" rpwe-ul">
-            {{ range first 4 (where .Site.Pages "Type" "post") }}
+            {{ range first 6 (where .Site.Pages "Type" "post") }}
             <li class="rpwe-il rpwe-classfix">
                 <a class="rpwe-img" href="{{ .Permalink }}" class="thumbnail">
 		    {{ if and (isset .Params "banner") (not (eq .Params.banner "")) }}

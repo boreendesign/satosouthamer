@@ -4,7 +4,7 @@
 {{ end }}
 {{ end }}
 
-    <div id="content">	
+    <div id="content">
 	<section id="post" class="post type-post status-publish format-standard has-post-thumbnail hentry">
 	    <article>
 		<div class="article-inner">
@@ -13,8 +13,9 @@
 		    {{ partial "share" . }}
 		</div>
 		<div class="entry-content" itemprop="articleBody">
+        <img src="{{ .Params.banner | absURL }}" class="attachment-featured size-featured wp-post-image"/>
 		    {{ .Content }}
-		    <!-- -    {{ partial "share" . }}  -->	
+		    <!-- -    {{ partial "share" . }}  -->
 		</div>
 		{{ if (.Params.tags) }}
 		<div class="tags">
@@ -25,7 +26,7 @@
 		{{ end }}
 		{{ partial "prev_next_post" . }}
 	    </article>
-	    
+
 	    {{ if and (and (not (eq .Site.Params.privacy.DisqusShortname "")) (not .Params.disable_comments)) (not .Site.Params.privacy.enable) }}
 	    <section id="comments">
 		<div id="disqus_thread">
@@ -34,7 +35,7 @@
 	    </section>
 	    {{ end }}
 	</section>
-	
+
     </div><!-- #content -->
 {{ if .Site.Params.widgets }}
 {{ if (not .Params.disable_profile) | and (not .Params.disable_widgets) }}
