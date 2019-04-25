@@ -10,11 +10,17 @@
 		<div class="article-inner">
 		    {{ partial "article_header" . }}
 		    {{ partial "article_footer" . }}
-		    {{ partial "share" . }}
+
 		</div>
 		<div class="entry-content" itemprop="articleBody">
+      		{{ if (.Params.banner) }}
         <img src="{{ .Params.banner | absURL }}" class="attachment-featured size-featured wp-post-image"/>
-		    {{ .Content }}
+          {{ end }}
+        {{ .Content }}
+        {{ if (.Params.highlights) }}
+        <img src="{{ .Params.highlights | absURL }}" class="attachment-featured size-featured wp-post-image"/>
+        {{end}}
+        {{ partial "contact_form" . }}
 		    <!-- -    {{ partial "share" . }}  -->
 		</div>
 		{{ if (.Params.tags) }}

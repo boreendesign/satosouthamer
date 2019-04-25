@@ -12,11 +12,3 @@ For more information on any of our packages or to get a personalized quote based
 Call us toll free on; 1-800-982-0561
 
 Or fill out our contact form and our travel consultants will get in touch;
-
-
-<form id="my-awesome-form" action="https://api.formbucket.com/f/buk_4hyFb5XhvHPpp5qB5pCPIhEt" method="post" target="_blank">
-  <input type="text" name="email" placeholder="email" />
-  <input type="text" name="subject" placeholder="subject" />
-  <textarea type="text" name="message" placeholder="message"></textarea>
-  <button class="button secondary" type="submit">Submit</button>
-</form>

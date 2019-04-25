@@ -4,8 +4,8 @@ date = "2015-10-02T21:49:20+02:00"
 tags = ["Chile"]
 categories = ["programming"]
 #menu = "main"
-banner = "packages/10-day-peru-banner.jpg"
-highlights = "packages/10-day-peru-highlights.jpg"
+banner = "packages/10-day-chile-experience-banner.jpg"
+highlights = "packages/10-day-chile-experience-highlights.jpg"
 price = "x,xxx"
 +++
 
@@ -13,11 +13,11 @@ During this 10 day Chile vacation package you will have the chance to get to kno
 
 # Highlights
 
-Enjoy cultural Santiago perched between the Pacific and the Andes
-Taste some of Chile’s finest reds and whites at one of the famous Wine Valleys  
-Enjoy a night of stargazing on a “superior” level and clarity few destinations can rival
-Travel through the moonlike landscapes of the driest desert on the planet; Atacama
-Patagonia; hike among the Torres del Paine and sail besides massive glaciers
+* Enjoy cultural Santiago perched between the Pacific and the Andes
+* Taste some of Chile’s finest reds and whites at one of the famous Wine Valleys  
+* Enjoy a night of stargazing on a “superior” level and clarity few destinations can rival
+* Travel through the moonlike landscapes of the driest desert on the planet; Atacama
+* Patagonia; hike among the Torres del Paine and sail besides massive glaciers
 
 # Day by Day
 
