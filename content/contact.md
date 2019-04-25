@@ -7,7 +7,12 @@ disable_comments: true
 
 ---
 
-Contact SATO Travel
+For more information on any of our packages or to get a personalized quote based on your preferences, please get in touch.
+
+Call us toll free on; 1-800-982-0561
+
+Or fill out our contact form and our travel consultants will get in touch;
+
 
 <form id="my-awesome-form" action="https://api.formbucket.com/f/buk_4hyFb5XhvHPpp5qB5pCPIhEt" method="post" target="_blank">
   <input type="text" name="email" placeholder="email" />
