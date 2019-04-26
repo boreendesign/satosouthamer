@@ -9,12 +9,12 @@ key = "default"
 config = "config.toml"
 
 [[collections]]
-key = "posts"
-title = "Posts"
-folder = "content/posts/"
+key = "packages"
+title = "Packages"
+folder = "content/packages/"
 extension = "md"
 dataformat = "toml"
-itemtitle = "Post"
+itemtitle = "Package"
 
   [[collections.fields]]
   key = "info"

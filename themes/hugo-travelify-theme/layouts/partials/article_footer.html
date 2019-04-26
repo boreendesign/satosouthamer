@@ -11,9 +11,13 @@
     </span>
     {{ end }}
 
+    {{ if isset .Params "price" }}
+
     <span class="package_price">
-      From $US{{ .Params.price }}
+      From US${{ .Params.price }} per person
     </span>
+
+    {{ end }}
 
     {{ if isset .Params "categoriesOLD" }}
     {{ $categoriesLen := len .Params.categories }}

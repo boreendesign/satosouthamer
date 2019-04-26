@@ -20,7 +20,9 @@
         {{ if (.Params.highlights) }}
         <img src="{{ .Params.highlights | absURL }}" class="attachment-featured size-featured wp-post-image"/>
         {{end}}
-        {{ partial "contact_form" . }}
+        {{ if (.Params.contact_form) }}
+          {{ partial "contact_form" . }}
+        {{end}}
 		    <!-- -    {{ partial "share" . }}  -->
 		</div>
 		{{ if (.Params.tags) }}
