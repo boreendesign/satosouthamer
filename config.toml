@@ -73,19 +73,19 @@ googleTagManager = "GTM-N2XNF3X" # Add your own Google analytics code here in th
 # Add your social network accounts to the profile section on the left
 # by entering your username. The links to your account will be
 # created automatically.
-    rss             = "Needed" # leave this to blank if you do not want RSS feed icon to appear on top
+    rss             = "" # leave this to blank if you do not want RSS feed icon to appear on top
     github          = ""
     flickr          = ""
     instagram       = ""
-    youtube         = "nikimonikado"
+    youtube         = ""
     vimeo           = ""
     tumblr          = ""
     linkedin        = ""
     pinterest       = ""
     googleplus      = ""
-    facebook        = "nikimonikado"
-    twitter         = "nikimonikado"
-    email           = "joe@example.com"
+    facebook        = ""
+    twitter         = ""
+    email           = "contact@satoperu.com"
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
