@@ -1,11 +1,11 @@
 {{ if .Site.Params.widgets.recent_articles }}
 <aside id="rpwe_widget-3" class="widget rpwe_widget">
     <h3 class="widget-title">
-        {{with .Site.Data.l10n.widgets.recent_articles.title}}{{.}}{{end}}
+        Blogs
     </h3>
     <div class="rpwe-block">
         <ul class=" rpwe-ul">
-            {{ range first 6 (where .Site.Pages "Type" "package") }}
+            {{ range first 6 (where .Site.Pages "Type" "blog") }}
             <li class="rpwe-il rpwe-classfix">
                 <a class="rpwe-img" href="{{ .Permalink }}" class="thumbnail">
 		    {{ if and (isset .Params "banner") (not (eq .Params.banner "")) }}

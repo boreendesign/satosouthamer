@@ -11,10 +11,6 @@ highlights = "packages/10-day-peru-highlights.jpg"
 price = "1,795"
 contact_form = true
 +++
-
-
-This package combines the two top Andean countries in 14 days. Visit Machu Picchu and Cusco, travel via Lake Titicaca to La Paz and end at the unparalleled Uyuni Salt Lake.
-
 These 10 days will allow you to discover the essence of Peru, its archeology and landscapes. Taste the culinary delights of Lima, wander through the cobblestoned streets of Cusco, awe at the beauty of Machu Picchu and spot wildlife in the depths of the Amazon Rainforest.
 
 # Highlights

@@ -38,14 +38,24 @@ canonifyURLs = true
     weight = 10
 
 [[menu.main]]
+    name  = "Where in South America"
+    url   = "/blog/where-in-south-america-should-i-go/"
+    weight = 20
+
+[[menu.main]]
+    name  = "Wine Tours"
+    url   = "/blog/south-america-wines-spirits-a-small-introduction/"
+    weight = 30
+
+[[menu.main]]
     name  = "About Us"
     url   = "/about/"
-    weight = 20
+    weight = 40
 
 [[menu.main]]
     name  = "Contact Us"
     url   = "/contact/"
-    weight = 30
+    weight = 50
 
 
 
