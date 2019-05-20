@@ -101,6 +101,7 @@ hr {
 @font-face {
     font-family: 'Genericons';
     src: url('library/font/Genericons.eot');
+		font-display: swap;
 }
 
 @font-face {
@@ -110,12 +111,14 @@ hr {
          url('library/font/Genericons.svg#genericonsregular') format('svg');
     font-weight: normal;
     font-style: normal;
+		font-display: swap;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "Genericons";
     src: url("library/font//Genericons.svg#Genericons") format("svg");
+		font-display: swap;
   }
 }
 
@@ -2106,7 +2109,7 @@ article {
 
 /* cyrillic-ext */
 @font-face {
-  font-family: 'Ubuntu';
+  font-family: "Open Sans Regular";
   font-style: normal;
   font-weight: 400;
   src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(../fonts/4iCs6KVjbNBYlgoKcg72j00.woff2) format('woff2');
@@ -2115,7 +2118,7 @@ article {
 }
 /* cyrillic */
 @font-face {
-  font-family: 'Ubuntu';
+  font-family: "Open Sans Regular";
   font-style: normal;
   font-weight: 400;
   src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(../fonts/4iCs6KVjbNBYlgoKew72j00.woff2) format('woff2');
@@ -2124,7 +2127,7 @@ article {
 }
 /* greek-ext */
 @font-face {
-  font-family: 'Ubuntu';
+  font-family: "Open Sans Regular";
   font-style: normal;
   font-weight: 400;
   src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(../fonts/4iCs6KVjbNBYlgoKcw72j00.woff2) format('woff2');
@@ -2133,7 +2136,7 @@ article {
 }
 /* greek */
 @font-face {
-  font-family: 'Ubuntu';
+  font-family: "Open Sans Regular";
   font-style: normal;
   font-weight: 400;
   src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(../fonts/4iCs6KVjbNBYlgoKfA72j00.woff2) format('woff2');
@@ -2142,7 +2145,7 @@ article {
 }
 /* latin-ext */
 @font-face {
-  font-family: 'Ubuntu';
+  font-family: "Open Sans Regular";
   font-style: normal;
   font-weight: 400;
   src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(../fonts/4iCs6KVjbNBYlgoKcQ72j00.woff2) format('woff2');
@@ -2151,7 +2154,7 @@ article {
 }
 /* latin */
 @font-face {
-  font-family: 'Ubuntu';
+  font-family: "Open Sans Regular";
   font-style: normal;
   font-weight: 400;
   src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(../fonts/4iCs6KVjbNBYlgoKfw72.woff2) format('woff2');
