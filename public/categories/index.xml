@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on SATO South America</title>
-    <link>https://sato-southamerica.netlify.com/categories/</link>
+    <link>https://satosouthamerica.com/categories/</link>
     <description>Recent content in Categories on SATO South America</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://sato-southamerica.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://satosouthamerica.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

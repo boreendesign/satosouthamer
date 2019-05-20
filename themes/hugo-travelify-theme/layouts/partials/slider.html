@@ -2,6 +2,7 @@
 {{ if .Site.Params.slider.enable }}
 
 <section class="featured-slider">
+
     <div class="slider-cycle">
 	{{ if .Site.Data.slider }}
 	{{ if gt (len .Site.Data.slider) 0 }}
@@ -10,7 +11,26 @@
 	<div class="slides {{ if eq $index 0 }} displayblock {{ else }} displaynone {{ end }}">
 		    <figure>
 			    <a href="{{ .url }}" title="{{ .Title }}">
-			    <img src="{{ .banner | absURL }}" class="pngfix wp-post-image" alt="{{ .Title }}" title="{{ .Title }}">
+
+
+            <div class="picture wp-post-image">
+                <picture>
+                    <source
+                      media="(min-width: 535px)"
+                      srcset={{ .banner | absURL }}.jpeg
+                      type="image/jpeg" >
+                    <!-- Small screens -->
+                    <source
+                      media="(max-width: 534px)"
+                      srcset={{ .banner | absURL }}-sm.jpeg
+                      type="image/jpeg" >
+                  <img
+                    src={{ .banner | absURL }}.jpeg
+                    type="image/jpeg"
+                    alt="{{ .Title }}">
+                </picture>
+            </div>
+
 		</a>
 	    </figure>
 		    <article class="featured-text">
@@ -38,7 +58,7 @@
 	{{ end }}
 	{{ else }}
 	{{ $features := add .Site.Params.slider.num_features 1 }}
-	{{ range $index, $page := first $features (where .Site.Pages "Type" "post") }}
+	{{ range $index, $page := first $features (where .Site.Pages "Type" "package") }}
 	{{ if and (isset .Params "banner") (not (eq .Params.banner "")) }}
 	<div class="slides {{ if eq $index 0 }} displayblock {{ else }} displaynone {{ end }}">
 		    {{ partial "single_slide" . }}

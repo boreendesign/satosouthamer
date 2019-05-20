@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on SATO South America</title>
-    <link>https://sato-southamerica.netlify.com/tags/</link>
+    <link>https://satosouthamerica.com/tags/</link>
     <description>Recent content in Tags on SATO South America</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Oct 2015 21:49:20 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 13 May 2019 21:49:20 +0200</lastBuildDate>
     
-	<atom:link href="https://sato-southamerica.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://satosouthamerica.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Chile</title>
+      <link>https://satosouthamerica.com/tags/chile/</link>
+      <pubDate>Mon, 13 May 2019 21:49:20 +0200</pubDate>
+      
+      <guid>https://satosouthamerica.com/tags/chile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Bolivia</title>
-      <link>https://sato-southamerica.netlify.com/tags/bolivia/</link>
+      <link>https://satosouthamerica.com/tags/bolivia/</link>
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>https://sato-southamerica.netlify.com/tags/bolivia/</guid>
+      <guid>https://satosouthamerica.com/tags/bolivia/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Brazil</title>
-      <link>https://sato-southamerica.netlify.com/tags/brazil/</link>
+      <link>https://satosouthamerica.com/tags/brazil/</link>
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>https://sato-southamerica.netlify.com/tags/brazil/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Chile</title>
-      <link>https://sato-southamerica.netlify.com/tags/chile/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
-      
-      <guid>https://sato-southamerica.netlify.com/tags/chile/</guid>
+      <guid>https://satosouthamerica.com/tags/brazil/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Equador</title>
-      <link>https://sato-southamerica.netlify.com/tags/equador/</link>
+      <link>https://satosouthamerica.com/tags/equador/</link>
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>https://sato-southamerica.netlify.com/tags/equador/</guid>
+      <guid>https://satosouthamerica.com/tags/equador/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Machu Picchu</title>
-      <link>https://sato-southamerica.netlify.com/tags/machu-picchu/</link>
+      <link>https://satosouthamerica.com/tags/machu-picchu/</link>
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>https://sato-southamerica.netlify.com/tags/machu-picchu/</guid>
+      <guid>https://satosouthamerica.com/tags/machu-picchu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Peru</title>
-      <link>https://sato-southamerica.netlify.com/tags/peru/</link>
+      <link>https://satosouthamerica.com/tags/peru/</link>
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>https://sato-southamerica.netlify.com/tags/peru/</guid>
+      <guid>https://satosouthamerica.com/tags/peru/</guid>
       <description></description>
     </item>
     

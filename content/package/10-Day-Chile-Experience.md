@@ -6,8 +6,8 @@ noprevnext = true
 nodateline = true
 disable_comments = true
 #menu = "main"
-banner = "packages/10-day-chile-experience-banner.jpg"
-highlights = "packages/10-day-chile-experience-highlights.jpg"
+banner = "images/packages/10-day-chile-experience-banner"
+highlights = "images/packages/10-day-chile-experience-highlights"
 price = "3,095"
 contact_form = true
 +++

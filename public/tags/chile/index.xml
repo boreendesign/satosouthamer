@@ -2,33 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chile on SATO South America</title>
-    <link>https://sato-southamerica.netlify.com/tags/chile/</link>
+    <link>https://satosouthamerica.com/tags/chile/</link>
     <description>Recent content in Chile on SATO South America</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Oct 2015 21:49:20 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 13 May 2019 21:49:20 +0200</lastBuildDate>
     
-	<atom:link href="https://sato-southamerica.netlify.com/tags/chile/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://satosouthamerica.com/tags/chile/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>South America - Wines &amp; Spirits; a small introduction</title>
+      <link>https://satosouthamerica.com/blog/south-america-wines-spirits-a-small-introduction/</link>
+      <pubDate>Mon, 13 May 2019 21:49:20 +0200</pubDate>
+      
+      <guid>https://satosouthamerica.com/blog/south-america-wines-spirits-a-small-introduction/</guid>
+      <description>For those a little familiar with the world of wines Chile and Argentina have been long time players on the international wine market. In many European supermarkets you can find Chilean wines at better prices than their European competitors and the international wine market only keeps growing. In size the Argentinean producers are close to their Chilean counterparts and these wines can also easily be found in most supermarkets or liquor stores.</description>
+    </item>
+    
+    <item>
+      <title>Where in South America Should I Go</title>
+      <link>https://satosouthamerica.com/blog/where-in-south-america-should-i-go/</link>
+      <pubDate>Mon, 13 May 2019 21:49:20 +0200</pubDate>
+      
+      <guid>https://satosouthamerica.com/blog/where-in-south-america-should-i-go/</guid>
+      <description>Peru Top destinations;  Machu Picchu Cusco Sacred Valley Lima Amazon Rainforest Lake Titicaca Colca Canyon  Weather; Large variety of climates and microclimates (Arid, Temperate &amp;amp; Tropical)
+Interests; Archeology, Food &amp;amp; Wildlife
+A quick look; South America doesn’t get much more evocative of generations gone by than Peru. Its mix of ancient civilizations and unparalleled archaeology, set among some of the most extraordinary views on the planet, means few destinations have as much to offer visitors as Peru.</description>
+    </item>
+    
+    <item>
       <title>10 Day Argentina Experience</title>
-      <link>https://sato-southamerica.netlify.com/post/10-day-argentina-experience/</link>
+      <link>https://satosouthamerica.com/package/10-day-argentina-experience/</link>
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>https://sato-southamerica.netlify.com/post/10-day-argentina-experience/</guid>
+      <guid>https://satosouthamerica.com/package/10-day-argentina-experience/</guid>
       <description>This trip will allow you to grasp the soul of the massive country and its proud culture. We will start our 10 day Argentina vacation package in the city of Buenos Aires with the Iguazu Falls as your next stop before heading to the far south to explore the beauty of Patagonia, its lakes and glaciers in El Calafate and Ushuaia.
 Highlights  Stroll through Recoleta and enjoy Buenos Aires Porteño style; Tango, wine and beef.</description>
     </item>
     
     <item>
       <title>10 Day Chile Experience</title>
-      <link>https://sato-southamerica.netlify.com/post/10-day-chile-experience/</link>
+      <link>https://satosouthamerica.com/package/10-day-chile-experience/</link>
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>https://sato-southamerica.netlify.com/post/10-day-chile-experience/</guid>
+      <guid>https://satosouthamerica.com/package/10-day-chile-experience/</guid>
       <description>During this 10 day Chile vacation package you will have the chance to get to know some of Chile’s most enigmatic destinations and attractions. From the metropolitan capital Santiago we will head north to the Atacama Desert for amazing days and spectacular nights. From here we will head to the far south to explore the granite mountain peaks of the famous Torres del Paine Park in Patagonia
 Highlights  Enjoy cultural Santiago perched between the Pacific and the Andes Taste some of Chile’s finest reds and whites at one of the famous Wine Valleys</description>
+    </item>
+    
+    <item>
+      <title>10 Day Chile Wine Experience</title>
+      <link>https://satosouthamerica.com/package/10-day-chile-wine-experience/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      
+      <guid>https://satosouthamerica.com/package/10-day-chile-wine-experience/</guid>
+      <description>These 10 days will not only allow to see some of Chile’s most famous sights but also get in depth with one of Chile’s most famous ambassadors; its impressive collection of homegrown wines. From the culinary delights of Santiago we will take you to some of the best wine valleys such as Casablanca, Maipo and Colchagua Valley. You will also get the chance to get to know the coastal cities of Valparaiso and Viña del Mar as well as the Chilean Lake Region around Puerto Varas.</description>
     </item>
     
   </channel>

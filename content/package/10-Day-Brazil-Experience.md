@@ -6,8 +6,8 @@ noprevnext = true
 nodateline = true
 disable_comments = true
 #menu = "main"
-banner = "packages/10-day-brazil-experience-banner.jpg"
-highlights = "packages/10-day-brazil-experience-highlights.jpg"
+banner = "images/packages/10-day-brazil-experience-banner"
+highlights = "images/packages/10-day-brazil-experience-highlights"
 price = "1,850"
 contact_form = true
 +++

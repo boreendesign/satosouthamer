@@ -6,8 +6,8 @@ noprevnext = true
 nodateline = true
 disable_comments = true
 #menu = "main"
-banner = "packages/10-day-ecuador-galapagos-islands-experience-banner.jpg"
-highlights = "packages/10-day-ecuador-galapagos-islands-experience-highlights.jpg"
+banner = "images/packages/10-day-ecuador-galapagos-islands-experience-banner"
+highlights = "images/packages/10-day-ecuador-galapagos-islands-experience-highlights"
 price = "4,350"
 contact_form = true
 +++

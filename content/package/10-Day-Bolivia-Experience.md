@@ -6,8 +6,8 @@ noprevnext = true
 nodateline = true
 disable_comments = true
 #menu = "main"
-banner = "packages/10-day-bolivia-experience-banner.jpg"
-highlights = "packages/10-day-bolivia-experience-highlights.jpg"
+banner = "images/packages/10-day-bolivia-experience-banner"
+highlights = "images/packages/10-day-bolivia-experience-highlights"
 price = "2,195"
 contact_form = true
 +++

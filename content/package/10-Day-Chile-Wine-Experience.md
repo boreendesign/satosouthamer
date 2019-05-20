@@ -6,8 +6,8 @@ noprevnext = true
 nodateline = true
 disable_comments = true
 #menu = "main"
-banner = "packages/chile-wine-package.jpg"
-highlights = "packages/chile-wine-package-2.jpg"
+banner = "images/packages/chile-wine-package"
+highlights = "images/packages/chile-wine-package-2"
 price = "2,895"
 contact_form = true
 +++

@@ -4,9 +4,34 @@
 <section id="main" class="post type-post status-publish format-standard has-post-thumbnail hentry">
   <article>
     {{ if and (isset .Params "banner") (not (eq .Params.banner "")) }}
+
+
     <figure class="post-featured-image">
       <a href="{{ .RelPermalink }}" itemprop="url">
-	<img src="{{ .Params.banner | absURL }}" class="attachment-featured size-featured wp-post-image"/>
+
+  <div class="picture">
+      <picture>
+          <source
+            media="(min-width: 535px)"
+            srcset={{ .Params.banner | absURL }}.jpeg
+            type="image/jpeg" >
+          <!-- Small screens -->
+          <source
+            media="(max-width: 534px)"
+            srcset={{ .Params.banner | absURL }}-sm.jpeg
+            type="image/jpeg" >
+        <img
+          src={{ .Params.banner | absURL }}.jpeg
+          type="image/jpeg"
+          alt="image description">
+      </picture>
+  </div>
+
+
+
+
+
+
       </a>
     </figure>
     {{ end }}

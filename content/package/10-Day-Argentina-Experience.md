@@ -6,8 +6,8 @@ noprevnext = true
 nodateline = true
 disable_comments = true
 #menu = "main"
-banner = "packages/10-day-argentina-experience-banner.jpg"
-highlights = "packages/10-day-argentina-experience-highlights.jpg"
+banner = "images/packages/10-day-argentina-experience-banner"
+highlights = "images/packages/10-day-argentina-experience-highlights"
 price = "2,095"
 contact_form = true
 +++

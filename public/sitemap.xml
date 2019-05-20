@@ -3,111 +3,132 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://sato-southamerica.netlify.com/about/</loc>
+    <loc>https://satosouthamerica.com/blog/</loc>
+    <lastmod>2019-05-13T21:49:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://satosouthamerica.com/tags/chile/</loc>
+    <lastmod>2019-05-13T21:49:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://satosouthamerica.com/</loc>
+    <lastmod>2019-05-13T21:49:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://satosouthamerica.com/blog/south-america-wines-spirits-a-small-introduction/</loc>
+    <lastmod>2019-05-13T21:49:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://satosouthamerica.com/tags/</loc>
+    <lastmod>2019-05-13T21:49:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://satosouthamerica.com/blog/where-in-south-america-should-i-go/</loc>
+    <lastmod>2019-05-13T21:49:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://satosouthamerica.com/about/</loc>
     <lastmod>2017-06-07T15:36:00+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://sato-southamerica.netlify.com/contact/</loc>
+    <loc>https://satosouthamerica.com/contact/</loc>
     <lastmod>2017-06-07T15:36:00+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://sato-southamerica.netlify.com/</loc>
-    <lastmod>2017-06-07T15:36:00+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sato-southamerica.netlify.com/thank-you/</loc>
+    <loc>https://satosouthamerica.com/thank-you/</loc>
     <lastmod>2017-06-07T15:36:00+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://sato-southamerica.netlify.com/post/10-day-argentina-experience/</loc>
+    <loc>https://satosouthamerica.com/package/10-day-argentina-experience/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sato-southamerica.netlify.com/post/10-day-bolivia-experience/</loc>
+    <loc>https://satosouthamerica.com/package/10-day-bolivia-experience/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sato-southamerica.netlify.com/post/10-day-brazil-experience/</loc>
+    <loc>https://satosouthamerica.com/package/10-day-brazil-experience/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sato-southamerica.netlify.com/post/10-day-chile-experience/</loc>
+    <loc>https://satosouthamerica.com/package/10-day-chile-experience/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sato-southamerica.netlify.com/post/10-day-ecuador-galapagos-islands-experience/</loc>
+    <loc>https://satosouthamerica.com/package/10-day-chile-wine-experience/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sato-southamerica.netlify.com/post/10-day-peru-experience/</loc>
+    <loc>https://satosouthamerica.com/package/10-day-ecuador-galapagos-islands-experience/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sato-southamerica.netlify.com/tags/bolivia/</loc>
+    <loc>https://satosouthamerica.com/package/10-day-peru-experience/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sato-southamerica.netlify.com/tags/brazil/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sato-southamerica.netlify.com/tags/chile/</loc>
+    <loc>https://satosouthamerica.com/tags/bolivia/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sato-southamerica.netlify.com/tags/equador/</loc>
+    <loc>https://satosouthamerica.com/tags/brazil/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sato-southamerica.netlify.com/tags/machu-picchu/</loc>
+    <loc>https://satosouthamerica.com/tags/equador/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sato-southamerica.netlify.com/tags/peru/</loc>
+    <loc>https://satosouthamerica.com/tags/machu-picchu/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sato-southamerica.netlify.com/post/</loc>
+    <loc>https://satosouthamerica.com/package/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sato-southamerica.netlify.com/tags/</loc>
+    <loc>https://satosouthamerica.com/tags/peru/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sato-southamerica.netlify.com/author/</loc>
+    <loc>https://satosouthamerica.com/author/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sato-southamerica.netlify.com/categories/</loc>
+    <loc>https://satosouthamerica.com/categories/</loc>
     <priority>0</priority>
   </url>
   

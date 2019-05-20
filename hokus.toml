@@ -16,6 +16,13 @@ extension = "md"
 dataformat = "toml"
 itemtitle = "Package"
 
+key = "blogs"
+title = "Blogs"
+folder = "content/blogs/"
+extension = "md"
+dataformat = "toml"
+itemtitle = "Blog"
+
   [[collections.fields]]
   key = "info"
   type = "info"

@@ -6,8 +6,8 @@ noprevnext = true
 nodateline = true
 disable_comments = true
 #menu = "main"
-banner = "packages/10-day-peru-banner.jpg"
-highlights = "packages/10-day-peru-highlights.jpg"
+banner = "images/packages/10-day-peru-banner"
+highlights = "images/packages/10-day-peru-highlights"
 price = "1,795"
 contact_form = true
 +++
