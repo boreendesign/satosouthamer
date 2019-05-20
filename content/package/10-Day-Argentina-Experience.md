@@ -1,6 +1,7 @@
 +++
 title = "10 Day Argentina Experience"
 date = "2015-10-02T21:49:20+02:00"
+button = "Argentina Package"
 tags = ["Chile"]
 noprevnext = true
 nodateline = true

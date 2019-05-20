@@ -1,6 +1,7 @@
 +++
 title = "10 Day Bolivia Experience"
 date = "2015-10-02T21:49:20+02:00"
+button = "Bolivian Package"
 tags = ["Bolivia"]
 noprevnext = true
 nodateline = true

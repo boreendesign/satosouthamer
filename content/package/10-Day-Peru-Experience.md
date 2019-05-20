@@ -2,6 +2,7 @@
 title = "10 Day Peru Experience"
 date = "2015-10-02T21:49:20+02:00"
 tags = ["Peru","Machu Picchu"]
+button = "Peruvian Package"
 noprevnext = true
 nodateline = true
 disable_comments = true

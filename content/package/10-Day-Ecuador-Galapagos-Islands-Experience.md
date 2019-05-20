@@ -2,6 +2,7 @@
 title = "10 Day Ecuador & Galapagos Islands Experience"
 date = "2015-10-02T21:49:20+02:00"
 tags = ["Equador"]
+button = "Galapagos Package"
 noprevnext = true
 nodateline = true
 disable_comments = true

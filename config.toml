@@ -10,7 +10,7 @@ canonifyURLs = true
 [params]
     # Tell me who you are
     author = "SATO Travels"
-    site_description = "The South America Travel Specialist"
+    site_description = "The South America Travel Specialist, South America Tours, Information and Packages for all budgets"
     copyright  = "Copyright"
     toll_free = "18009820561"
 #    avatar = "avatar.png"
