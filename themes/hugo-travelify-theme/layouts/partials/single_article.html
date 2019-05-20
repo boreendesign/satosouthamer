@@ -14,11 +14,46 @@
 		</div>
 		<div class="entry-content" itemprop="articleBody">
       		{{ if (.Params.banner) }}
-        <img src="{{ .Params.banner | absURL }}" class="attachment-featured size-featured wp-post-image"/>
+
+          <div class="picture">
+              <picture>
+                  <source
+                    media="(min-width: 535px)"
+                    srcset={{ .Params.banner | absURL }}.jpeg
+                    type="image/jpeg" >
+                  <!-- Small screens -->
+                  <source
+                    media="(max-width: 534px)"
+                    srcset={{ .Params.banner | absURL }}-sm.jpeg
+                    type="image/jpeg" >
+                <img
+                  src={{ .Params.banner | absURL }}.jpeg
+                  type="image/jpeg"
+                  alt="image description">
+              </picture>
+          </div>
+
           {{ end }}
         {{ .Content }}
         {{ if (.Params.highlights) }}
-        <img src="{{ .Params.highlights | absURL }}" class="attachment-featured size-featured wp-post-image"/>
+        <div class="picture">
+            <picture>
+                <source
+                  media="(min-width: 535px)"
+                  srcset={{ .Params.highlights | absURL }}.jpeg
+                  type="image/jpeg" >
+                <!-- Small screens -->
+                <source
+                  media="(max-width: 534px)"
+                  srcset={{ .Params.highlights | absURL }}-sm.jpeg
+                  type="image/jpeg" >
+              <img
+                src={{ .Params.highlights | absURL }}.jpeg
+                type="image/jpeg"
+                alt="image description">
+            </picture>
+        </div>
+
         {{end}}
         {{ if (.Params.contact_form) }}
           {{ partial "contact_form" . }}

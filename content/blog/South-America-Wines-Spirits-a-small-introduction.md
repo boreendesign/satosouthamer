@@ -6,8 +6,8 @@ noprevnext = true
 nodateline = true
 disable_comments = true
 #menu = "main"
-banner = "blogs/chile-wine-blog.jpg"
-highlights = "blogs/wine-blog.jpg"
+banner = "images/blogs/chile-wine-blog"
+highlights = "images/blogs/wine-blog"
 contact_form = true
 +++
 

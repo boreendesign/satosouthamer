@@ -12,11 +12,14 @@ return gulp
     "**/*": [{
       width: 480,
       rename: {suffix: "-sm"},
-    }, {
+    },{
+      width: 800,
+      rename: {suffix: "-lg"},
+    },{
       width: 675,
     }],
   }, {
-    silent: true      // Don't spam the console
+    silent: false      // Don't spam the console
   }))
   .pipe(gulp.dest("./images")
 )

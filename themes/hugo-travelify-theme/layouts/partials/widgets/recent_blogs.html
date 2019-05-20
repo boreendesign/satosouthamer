@@ -9,7 +9,23 @@
             <li class="rpwe-il rpwe-classfix">
                 <a class="rpwe-img" href="{{ .Permalink }}" class="thumbnail">
 		    {{ if and (isset .Params "banner") (not (eq .Params.banner "")) }}
-                    <img class="rpwe-alignleft rpwe-thumb" src="{{ .Params.banner | absURL }}" alt="{{ $.Title }}">
+        <div class="picture">
+            <picture>
+                <source
+                  media="(min-width: 535px)"
+                  srcset={{ .Params.banner | absURL }}.jpeg
+                  type="image/jpeg" >
+                <!-- Small screens -->
+                <source
+                  media="(max-width: 534px)"
+                  srcset={{ .Params.banner | absURL }}-sm.jpeg
+                  type="image/jpeg" >
+              <img
+                src={{ .Params.banner | absURL }}.jpeg
+                type="image/jpeg"
+                alt="{{ $.Title }}">
+            </picture>
+        </div>
 		    {{else}}
                     <span class="thumbnail-image thumbnail-none"></span>
 		    {{ end }}

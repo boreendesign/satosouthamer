@@ -6,8 +6,8 @@ noprevnext = true
 nodateline = true
 disable_comments = true
 #menu = "main"
-banner = "blogs/brasil-rio-de-janeiro.jpg"
-highlights = "blogs/ecuador-crater-lake.jpg"
+banner = "images/blogs/brasil-rio-de-janeiro"
+highlights = "images/blogs/ecuador-crater-lake"
 +++
 
 #  Peru
