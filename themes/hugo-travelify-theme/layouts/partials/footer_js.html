@@ -34,9 +34,9 @@
 <script type="text/javascript">
  (function() {
      var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
-     
+
      request = true;
-     
+
      b[c] = b[c].replace( rcs, ' ' );
      // The customizer requires postMessage and CORS (if the site is cross domain)
      b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
@@ -50,7 +50,9 @@
 <script src="{{ . | absURL }}"></script>
 {{ end }}
 <script src="{{ "fancybox/jquery.fancybox.pack.js" | absURL }}"></script>
+<script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '9cbb5872-d5d3-4125-934a-3f738023035c', f: true }); done = true; } }; })();</script>
 <script src="{{ "js/script.js" | absURL }}"></script>
+
 
 <!-- <link rel='stylesheet' id='admin-bar-css'  href="/css/admin-bar.min.css" type='text/css' media='all' /> -->
 <!-- <link rel='stylesheet' id='travelify_style-css'  href="{{ .Site.BaseURL }}css/jetpack.css" type='text/css' media='all' /> -->
