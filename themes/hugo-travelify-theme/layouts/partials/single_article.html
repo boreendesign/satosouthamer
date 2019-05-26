@@ -9,8 +9,8 @@
 	    <article>
 		<div class="article-inner">
 		    {{ partial "article_header" . }}
-		    {{ partial "article_footer" . }}
 
+		    {{ partial "article_footer" . }}
 		</div>
 		<div class="entry-content" itemprop="articleBody">
       		{{ if (.Params.banner) }}
@@ -58,6 +58,9 @@
         {{ if (.Params.contact_form) }}
           {{ partial "contact_form" . }}
         {{end}}
+
+
+
 		    <!-- -    {{ partial "share" . }}  -->
 		</div>
 		{{ if (.Params.tags) }}
@@ -84,5 +87,8 @@
 {{ if (not .Params.disable_profile) | and (not .Params.disable_widgets) }}
 </div><!-- #primary -->
 {{ partial "widgets" . }}
+<br />
+{{ partial "multistep_form.html" . }}
+
 {{ end }}
 {{ end }}

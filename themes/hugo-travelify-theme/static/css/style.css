@@ -2252,11 +2252,25 @@ h3, #branding nav a, #branding .kicker, footer .lockup .content-wrap a {
 	#search #search-query, #search .btn-success{
 		font-size:15px;
 	}
+
+	#widgetForm{
+		min-height:520px!important;
+	}
+
+#msform fieldset{
+	min-height: 340px !important;
 }
 
 
+}
 
 
+@media (min-width: 641px){
+	#widgetForm{
+		min-height:420px!important;
+	}
+
+}
 h1 span {
     display: inline-block;
     padding: 0.2em 0.5em;
@@ -2444,6 +2458,7 @@ Multistep Form
 
 #widgetForm{
 	min-height:420px;
+	clear: both;
 }
 
 .dropdown{
@@ -2460,7 +2475,7 @@ Multistep Form
 }
 
 .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
-	width:100% !important;
+	width:70% !important;
 }
 
 .action_buttons{

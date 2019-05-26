@@ -7,4 +7,4 @@ disable_comments: true
 
 ---
 
-Thank you, we will be contact soon
+Thank you; our travel consultants will be in touch shortly.

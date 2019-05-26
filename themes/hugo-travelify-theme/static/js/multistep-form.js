@@ -31,7 +31,7 @@ $(".next").click(function(){
         'position': 'absolute'
       });
 			next_fs.css({'left': left, 'opacity': opacity});
-      $('#widgetForm').css('min-height', '420px');
+
 		},
 		duration: 800,
 		complete: function(){
