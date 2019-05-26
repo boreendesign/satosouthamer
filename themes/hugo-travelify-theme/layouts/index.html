@@ -18,7 +18,7 @@
       <div id="main" class="container clearfix">
 
 	<div id="container">
-    {{ partial "multistep_form.html" . }}      
+    <div style = "display:none">{{ partial "multistep_form.html" . }}</div>
 	  <div {{ if .Site.Params.widgets }}id="primary"{{ end }} class="no-margin-left">
 	    <div id="content">
 	      {{ partial "article_list" . }}
@@ -27,8 +27,13 @@
 	  </div><!-- #content -->
 	</div><!-- #primary -->
 	{{ partial "widgets" . }}
+
+  {{ partial "multistep_form.html" . }}
+
   {{ partial "footer.html" . }}
+
   {{ partial "search_container.html" . }}
+
       </div><!-- #container -->
     </div><!-- #main -->
   </body>
