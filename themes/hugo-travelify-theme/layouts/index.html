@@ -8,11 +8,13 @@
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
       {{ end }}
+
     <div class="wrapper">
       <header id="branding" >
 	{{ partial "head" . }}
 
       </header>
+
       <div id="main" class="container clearfix">
 	<div id="container">
 	  <div {{ if .Site.Params.widgets }}id="primary"{{ end }} class="no-margin-left">
@@ -22,8 +24,9 @@
 	  </div><!-- #content -->
 	</div><!-- #primary -->
 	{{ partial "widgets" . }}
+  {{ partial "footer.html" . }}
+  {{ partial "search_container.html" . }}
       </div><!-- #container -->
     </div><!-- #main -->
-    {{ partial "footer.html" . }}
   </body>
 </html>

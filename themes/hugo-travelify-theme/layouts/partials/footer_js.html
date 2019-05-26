@@ -50,9 +50,24 @@
 <script src="{{ . | absURL }}"></script>
 {{ end }}
 <script src="{{ "fancybox/jquery.fancybox.pack.js" | absURL }}"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!------  search ---------->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
+<script src="{{ "js/search.js" | absURL }}"></script>
+
+
+
+
+<!--
 <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '9cbb5872-d5d3-4125-934a-3f738023035c', f: true }); done = true; } }; })();</script>
 <script src="{{ "js/script.js" | absURL }}"></script>
-
+/>
 
 <!-- <link rel='stylesheet' id='admin-bar-css'  href="/css/admin-bar.min.css" type='text/css' media='all' /> -->
 <!-- <link rel='stylesheet' id='travelify_style-css'  href="{{ .Site.BaseURL }}css/jetpack.css" type='text/css' media='all' /> -->

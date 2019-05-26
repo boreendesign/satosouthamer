@@ -1700,7 +1700,7 @@ ul#blog {
 /* =Footer
 -----------------------------------------------*/
 #footerarea {
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 }
 #footerarea form input,#footerarea form textarea,#footerarea .widget {
 	-webkit-box-sizing: border-box;
@@ -2061,7 +2061,7 @@ article {
 		margin-left: 0;
 	}
 	#footerarea {
-		margin-bottom: 10px;
+		margin-bottom: 30px;
 	}
 }
 /* All Mobile size smaller than standard 320 (devices and browsers) */
@@ -2247,4 +2247,58 @@ h3, #branding nav a, #branding .kicker, footer .lockup .content-wrap a {
 	    text-align: center;
 	    padding-top: 20px;
 	}
+
+
+	#search #search-query, #search .btn-success{
+		font-size:15px;
+	}
+}
+
+
+
+
+h1 span {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    border: white solid 10px;
+}
+
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+
+#search {
+
+	width: 100%;
+	background-image: none;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position: 0% 0%;
+	position: fixed;
+	bottom: 0pt;
+	left: 0pt;
+}
+
+#search .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: .25rem;
+}
+
+
+#search .col-auto button{
+	border-bottom-left-radius:0px;
+	border-top-left-radius:0px;
+}
+
+#search input{
+	border-bottom-right-radius:0px;
+	border-top-right-radius:0px;
 }

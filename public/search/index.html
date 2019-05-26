@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <title>404 Page not found - SATO South America </title>
+    <title>Search Results - SATO South America </title>
     
     <link rel='dns-prefetch' href='//s.w.org' />
     <meta charset="UTF-8" />
@@ -49,7 +49,7 @@
        <!-- OPTIONAL dataLayer -->
         var dataLayer = window.dataLayer = window.dataLayer || [];
         dataLayer.push({
-          page:'404 Page not found',
+          page:'Search Results',
           categories:'only examples about your dataLayer'
         });
       </script>
@@ -66,6 +66,13 @@
 </head>
 
   <body class="home blog logged-in admin-bar no-customize-support custom-background ">
+    
+        
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id="
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        
+      
+
     <div class="wrapper">
       <header id="branding" >
 	<div class="container clearfix">
@@ -92,117 +99,35 @@
   </div>
 </div>
 
-	<nav id="main-nav" class="clearfix">
-  <div class="container clearfix">
-    <ul class="root">
-      
-      
-      <li class="menu-item menu-item-type-post_type menu-item-object-page ">
-	<a href="https://satosouthamerica.com/">Home</a>
-	
-      </li>
-      
-      <li class="menu-item menu-item-type-post_type menu-item-object-page ">
-	<a href="https://satosouthamerica.com/blog/where-in-south-america-should-i-go/">Where in South America</a>
-	
-      </li>
-      
-      <li class="menu-item menu-item-type-post_type menu-item-object-page ">
-	<a href="https://satosouthamerica.com/blog/south-america-wines-spirits-a-small-introduction/">Wine Tours</a>
-	
-      </li>
-      
-      <li class="menu-item menu-item-type-post_type menu-item-object-page ">
-	<a href="https://satosouthamerica.com/about/">About Us</a>
-	
-      </li>
-      
-      <li class="menu-item menu-item-type-post_type menu-item-object-page ">
-	<a href="https://satosouthamerica.com/contact/">Contact Us</a>
-	
-      </li>
-      
-      <li class="menu-item menu-item-type-taxonomy menu-item-object-category toll-free">
-        <a href="tel:18009820561">Call us Toll Free On 18009820561
-  	    </a>
-
-      </li>
-    </ul>
-  </div>
-</nav>
 
       </header>
+
       <div id="main" class="container clearfix">
 	<div id="container">
 	  <div id="primary" class="no-margin-left">
 	    <div id="content">
-	      <header class="entry-header">
-		<h1 class="entry-title">
-                  Error 404 - Page NOT Found
-		</h1>
-	      </header>
-	      <div class="entry-content clearfix">
-		<p>The content you&#39;re looking for doesn&#39;t seem to exist.</p>
-		<h3>This might be because:</h3>
-		<ul>
-		  <li>You have typed the web address incorrectly</li>
-		  <li>The page you were looking for may have been moved, updated or deleted.</li>
-		</ul>
-		<h3>Please try the following:</h3>
-		<ul>
-		  <li>Check for a mis-typed URL error</li>
-		  <li>Press the refresh button on your browser.</li>
-		  <li>Go back to <a href="https://satosouthamerica.com/" title="SATO South America" rel="home">Homepage</a></li>
-		</ul>
-	      </div>
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column">
+          <div class="my-auto" >
+                <input id="search-query" class="form-control form-control-lg form-control-borderless" name="s" type="search" placeholder="Search for a Destination or Package">
+
+
+            <div id="search-results">
+             <h3>Matching pages</h3>
+            </div>
+          </div>
+        </section>
+        
+        <script id="search-result-template" type="text/x-js-template">
+            <div id="summary-${key}">
+              <h4><a href="${link}">${title}</a></h4>
+              <p>${snippet}</p>
+              
+            </div>
+        </script>
 	    </div>
 	  </div>
 	</div>
-	<div id="secondary">
-	  
-
-
-
-	  
-
-	  
-
-	  
-
-
-
-<aside id="tag_cloud-2" class="widget widget_tag_cloud">
-  <h3 class="widget-title">        Tag cloud</h3>
-  <div class="tagcloud">
-
-
-
-    
-      
-    
-      
-    
-    <a href="https://satosouthamerica.com/tags/chile" style="font-size: 9px;" title="5 topics">
-      
-      Chile
-    </a>
-      
-      
-    
-      
-    
-      
-    
-      
-  </div>
-
-</aside>
-
-
-	</div>
-      </div>   
-    </div>
-    <footer id="footerarea" class="clearfix">
+      <footer id="footerarea" class="clearfix">
   <div class="widget-wrap">
     <div class="container">
       <div class="widget-area clearfix">
@@ -282,5 +207,8 @@
 
 
 
+
+      </div>
+    </div>
   </body>
 </html>

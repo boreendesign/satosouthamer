@@ -3,7 +3,9 @@ var  gulp         = require("gulp"),
      cssnano         = require("gulp-cssnano"),
      responsive          = require("gulp-responsive"),
      imagemin      = require('gulp-imagemin'),
-     mozjpeg      = require('imagemin-mozjpeg')
+     mozjpeg      = require('imagemin-mozjpeg'),
+     lunr = require("lunr"),
+     fs = require("fs");
 
 function img(){
 return gulp

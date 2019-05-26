@@ -50,6 +50,19 @@ Or fill out our contact form and our travel consultants will get in touch;</desc
     </item>
     
     <item>
+      <title>Search Results</title>
+      <link>https://satosouthamerica.com/search/</link>
+      <pubDate>Wed, 07 Jun 2017 15:36:00 +0530</pubDate>
+      
+      <guid>https://satosouthamerica.com/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ` [outputs] home = [&amp;quot;HTML&amp;quot;, &amp;quot;JSON&amp;quot;] \`</description>
+    </item>
+    
+    <item>
       <title>Thank You</title>
       <link>https://satosouthamerica.com/thank-you/</link>
       <pubDate>Wed, 07 Jun 2017 15:36:00 +0530</pubDate>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  {{ partial "header" . }}
+  <body class="home blog logged-in admin-bar no-customize-support custom-background ">
+    {{ if $.Site.Params.privacy.googleTagManager }}
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ $.Site.Params.google_tag_manager }}"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+      {{ end }}
+
+    <div class="wrapper">
+      <header id="branding" >
+	{{ partial "head" . }}
+
+      </header>
+
+      <div id="main" class="container clearfix">
+	<div id="container">
+	  <div {{ if .Site.Params.widgets }}id="primary"{{ end }} class="no-margin-left">
+	    <div id="content">
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column">
+          <div class="my-auto" >
+            {{ partial "search.html" . }}
+
+            <div id="search-results">
+             <h3>Matching pages</h3>
+            </div>
+          </div>
+        </section>
+        <!-- this template is sucked in by search.js and appended to the search-results div above. So editing here will adjust style -->
+        <script id="search-result-template" type="text/x-js-template">
+            <div id="summary-${key}">
+              <h4><a href="${link}">${title}</a></h4>
+              <p>${snippet}</p>
+              <!-- ${ isset tags }<p>Tags: ${tags}</p>${ end }
+              ${ isset categories }<p>Categories: ${categories}</p>${ end } -->
+            </div>
+        </script>
+	    </div>
+	  </div><!-- #content -->
+	</div><!-- #primary -->
+      {{ partial "footer.html" . }}
+
+      </div><!-- #container -->
+    </div><!-- #main -->
+  </body>
+</html>

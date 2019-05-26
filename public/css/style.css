@@ -67,9 +67,7 @@ body,input,textarea,article {
 	word-wrap: break-word;
 	-ms-word-wrap: break-word;
 }
-body {
-	border-top: 6px solid #009AFF;
-}
+
 hr {
 	border-color: #eaeaea;
 	border-style: solid none none;
@@ -101,6 +99,7 @@ hr {
 @font-face {
     font-family: 'Genericons';
     src: url('library/font/Genericons.eot');
+		font-display: swap;
 }
 
 @font-face {
@@ -110,12 +109,14 @@ hr {
          url('library/font/Genericons.svg#genericonsregular') format('svg');
     font-weight: normal;
     font-style: normal;
+		font-display: swap;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "Genericons";
     src: url("library/font//Genericons.svg#Genericons") format("svg");
+		font-display: swap;
   }
 }
 
@@ -527,15 +528,9 @@ a.more-link:hover {
 /* =Header
 -----------------------------------------------*/
 #branding {
-	margin-top: 15px;
+
 }
-.hgroup-wrap {
-	padding-top: 15px;
-	padding-bottom: 35px;
-}
-.hgroup-wrap a {
-	display: block;
-}
+
 #site-logo {
 	float: left;
 	margin-top: 0px;
@@ -1705,7 +1700,7 @@ ul#blog {
 /* =Footer
 -----------------------------------------------*/
 #footerarea {
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 }
 #footerarea form input,#footerarea form textarea,#footerarea .widget {
 	-webkit-box-sizing: border-box;
@@ -1854,7 +1849,7 @@ article {
 /* All Tablet Portrait size smaller than standard 1079 (devices and browsers) */
 @media only screen and (max-width: 1078px) {
 	.wrapper {
-		width: 95%;
+		width: 100%;
 	}
 	#site-title a img {
 		max-width: 200px;
@@ -1927,7 +1922,7 @@ article {
 		padding-bottom: 10px;
 	}
 	#branding {
-		margin-top: 15px;
+
 	}
 	.hgroup-wrap {
 		padding-bottom: 25px;
@@ -2066,7 +2061,7 @@ article {
 		margin-left: 0;
 	}
 	#footerarea {
-		margin-bottom: 10px;
+		margin-bottom: 30px;
 	}
 }
 /* All Mobile size smaller than standard 320 (devices and browsers) */
@@ -2190,4 +2185,113 @@ article {
 
 .blog h2{
 	font-size:18px;
+}
+
+
+
+
+
+#branding {
+    background-position: 30px 20px, 50% 50%;
+    background-image: url(logo.svg), url(/images/packages/10-day-ecuador-galapagos-islands-experience-banner.jpeg);
+    padding-bottom: 180px;
+		background-size:cover;
+}
+
+#branding nav a {
+    display: inline-block;
+    margin-left: 20px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#branding nav {
+    float: right;
+    padding: 10px 30px 0 0;
+}
+
+#branding h1 {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+		margin-bottom: 50px;
+    clear: both;
+    padding-top: 50px;
+}
+
+#branding h1 span {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    border: white solid 10px;
+}
+
+#branding  .kicker {
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: white;
+    line-height: 1;
+}
+
+h3, #branding nav a, #branding .kicker, footer .lockup .content-wrap a {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+@media (max-width: 640px){
+	#branding nav {
+	    float: none;
+	    text-align: center;
+	    padding-top: 20px;
+	}
+}
+
+
+h1 span {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    border: white solid 10px;
+}
+
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+
+#search {
+
+	width: 100%;
+	background-image: none;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position: 0% 0%;
+	position: fixed;
+	bottom: 0pt;
+	left: 0pt;
+}
+
+#search .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: .25rem;
+}
+
+
+#search .col-auto button{
+	border-bottom-left-radius:0px;
+	border-top-left-radius:0px;
+}
+
+#search input{
+	border-bottom-right-radius:0px;
+	border-top-right-radius:0px;
 }

@@ -13,6 +13,7 @@ canonifyURLs = true
     site_description = "The South America Travel Specialist, South America Tours, Information and Packages for all budgets"
     copyright  = "Copyright"
     toll_free = "18009820561"
+    search_text = "Search for a Destination or Package"
 #    avatar = "avatar.png"
     logo = "logo.png"
     title_in_logo = true # set to true if you want the title along with the logo
@@ -118,6 +119,11 @@ googleTagManager = "GTM-N2XNF3X" # Add your own Google analytics code here in th
     tags = "tags"
     categories = "categories"
     author = "author"
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+    blog = ["HTML", "RSS", "JSON"] 
+    package = ["HTML", "RSS", "JSON"]
 
 ## DONE - Menu
 ## DONE - slider
