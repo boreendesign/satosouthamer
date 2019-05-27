@@ -79,8 +79,8 @@ $(".previous").click(function(){
 	});
 });
 
-$(".action-button").click(function(event){
-  event.preventDefault();
+$(".action-button").click(function(){
+
 })
 
 })(jQuery);
