@@ -507,7 +507,7 @@ a.more-link:hover {
 /* Back to Top */
 .back-to-top {
 	position: fixed;
-	bottom: 10px;
+	bottom: 55px;
 	right: 18px;
 }
 .back-to-top a:before {
