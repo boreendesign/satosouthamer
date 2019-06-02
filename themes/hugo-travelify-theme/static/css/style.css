@@ -2425,7 +2425,12 @@ Multistep Form
 
 #msform input{
 	width:auto;
+	clear:both;
 
+}
+
+#msform .form-label{
+	clear:both;
 }
 
 /*headings*/
@@ -2445,6 +2450,9 @@ Multistep Form
     margin-bottom: 20px;
 }
 
+#msform .input_new_line{
+	width:90%;
+}
 
 
 
