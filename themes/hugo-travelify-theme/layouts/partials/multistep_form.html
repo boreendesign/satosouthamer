@@ -12,7 +12,60 @@
             <!-- fieldsets -->
             <fieldset>
                 <h2 class="fs-title">Which destinations would you like to visit?</h2>
-                <select class="selectpicker" name = "Destinations" multiple >
+                <div class = "dest_cont">
+                  <span class = "label">Machu Picchu</span>
+                  <input name = "Machu Picchu" type="checkbox" class = "checkbox">
+                  <span class="checkmark"></span>
+                </div>
+
+                <div class = "dest_cont">
+                  <span class = "label"> Amazon Rainforest</span>
+                  <input name = "Amazon Rainforest" type="checkbox" class = "checkbox">
+                  <span class="checkmark"></span>
+                </div>
+
+                <div class = "dest_cont">
+                  <span class = "label">Uyuni Salt Flats </span>
+                  <input name = "Uyuni Salt Flats" type="checkbox" class = "checkbox">
+                  <span class="checkmark"></span>
+                </div>
+
+                <div class = "dest_cont">
+                  <span class = "label">Atacama Desert </span>
+                  <input name = "Atacama Desert" type="checkbox" class = "checkbox">
+                  <span class="checkmark"></span>
+                </div>
+
+                <div class = "dest_cont">
+                  <span class = "label">Central Wine Region</span>
+                  <input name = "Central Wine Region" type="checkbox" class = "checkbox">
+                  <span class="checkmark"></span>
+                </div>
+
+                <div class = "dest_cont">
+                  <span class = "label">Patagonia</span>
+                  <input name = "Patagonia" type="checkbox" class = "checkbox">
+                  <span class="checkmark"></span>
+                </div>
+
+                <div class = "dest_cont">
+                  <span class = "label">Buenos Aires</span>
+                  <input name = "Buenos Aires" type="checkbox" class = "checkbox">
+                  <span class="checkmark"></span>
+                </div>
+
+                <div class = "dest_cont">
+                  <span class = "label">Iguazu Falls</span>
+                  <input name = "Iguazu Falls" type="checkbox" class = "checkbox">
+                  <span class="checkmark"></span>
+                </div>
+
+                <div class = "dest_cont">
+                  <span class = "label">Rio de Janeiro</span>
+                  <input name = "Rio de Janeiro" type="checkbox" class = "checkbox">
+                  <span class="checkmark"></span>
+                </div>
+                <!--<select name = "Destinations" multiple >
                   <option value = "Machu Picchu">Machu Picchu</option>
                   <option value = "Amazon Rainforest">Amazon Rainforest</option>
                   <option value = "Uyuni Salt Flats">Uyuni Salt Flats</option>
@@ -22,11 +75,11 @@
                   <option value = "Buenos Aires">Buenos Aires</option>
                   <option value = "Iguazu Falls">Iguazu Falls</option>
                   <option value = "Rio de Janeiro">Rio de Janeiro</option>
-                </select>
-                <textarea name="destinationExtra" placeholder="Other Destinations you are interested in"></textarea>
+                </select>-->
                 <div class = 'action_buttons'>
                   <input type="button" name="next" class="next action-button" value="Next"/>
                 </div>
+
             </fieldset>
             <fieldset>
                 <h2 class="fs-title">How many people will be traveling?</h2>
@@ -147,6 +200,9 @@
                   As long as it takes
                 </label>
               </div>
+
+
+
                 <div class = 'action_buttons'>
                   <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
                   <input type="button" name="next" class="next action-button" value="Next"/>
@@ -157,6 +213,7 @@
                 <h2 class="fs-title">Where can we reach you?</h2>
                 <input type="text" name="name" placeholder="Name"/>
                 <input type="text" name="email" placeholder="Email"/>
+                Tentative Date :<input class="form-control" name = "tentative-date" type="date" value="" id="tentative-date">           
                 <div class = 'action_buttons'>
                   <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
                   <input type="submit" name="submit" class="submit action-button" value="Submit"/>
