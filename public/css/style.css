@@ -507,7 +507,7 @@ a.more-link:hover {
 /* Back to Top */
 .back-to-top {
 	position: fixed;
-	bottom: 10px;
+	bottom: 55px;
 	right: 18px;
 }
 .back-to-top a:before {
@@ -2247,9 +2247,30 @@ h3, #branding nav a, #branding .kicker, footer .lockup .content-wrap a {
 	    text-align: center;
 	    padding-top: 20px;
 	}
+
+
+	#search #search-query, #search .btn-success{
+		font-size:15px;
+	}
+
+	#widgetForm{
+		min-height:520px!important;
+	}
+
+#msform fieldset{
+	min-height: 340px !important;
 }
 
 
+}
+
+
+@media (min-width: 641px){
+	#widgetForm{
+		min-height:420px!important;
+	}
+
+}
 h1 span {
     display: inline-block;
     padding: 0.2em 0.5em;
@@ -2294,4 +2315,203 @@ h1 span {
 #search input{
 	border-bottom-right-radius:0px;
 	border-top-right-radius:0px;
+}
+
+#search-results{
+	padding-top:20px;
+}
+
+
+/*
+Multistep Form
+*/
+
+/*custom font*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+/*form styles*/
+#msform {
+    position: relative;
+    margin-top: 30px;
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 0%;
+		min-height: 280px;
+    /*stacking fieldsets above each other*/
+    position: relative;
+}
+
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+
+/*inputs*/
+#msform input, #msform textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 13px;
+}
+
+#msform input:focus, #msform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #ee0979;
+    outline-width: 0;
+    transition: All 0.5s ease-in;
+    -webkit-transition: All 0.5s ease-in;
+    -moz-transition: All 0.5s ease-in;
+    -o-transition: All 0.5s ease-in;
+}
+
+/*buttons*/
+#msform .action-button {
+    width: 100px;
+    background: #ee0979;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+		position:relative;
+}
+
+#msform .action-button:hover, #msform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #ee0979;
+}
+
+#msform .action-button-previous {
+    width: 100px;
+    background: #C5C5F1;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+#msform .action-button-previous:hover, #msform .action-button-previous:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #C5C5F1;
+}
+
+#msform .form-check-label{
+	margin-left:10px;
+
+}
+
+#msform  #tentative-date
+{
+	padding:5px;
+}
+
+#msform input{
+	width:auto;
+	clear:both;
+
+}
+
+#msform .form-label{
+	clear:both;
+}
+
+/*headings*/
+.fs-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2C3E50;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.fs-subtitle {
+    font-weight: normal;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#msform .input_new_line{
+	width:90%;
+}
+
+
+
+/* Not relevant to this form */
+.dme_link {
+    margin-top: 30px;
+    text-align: center;
+}
+.dme_link a {
+    background: #FFF;
+    font-weight: bold;
+    color: #ee0979;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 5px 25px;
+    font-size: 12px;
+}
+
+.dme_link a:hover, .dme_link a:focus {
+    background: #C5C5F1;
+    text-decoration: none;
+}
+
+/* Multistep Form Widget */
+
+#widgetForm{
+	min-height:420px;
+	clear: both;
+}
+
+.dropdown{
+	padding: 0px;
+	border: 1px solid #ccc;
+	border-radius: 0px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: montserrat;
+	color: #2C3E50;
+	font-size: 13px;
+
+}
+
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+	width:70% !important;
+}
+
+.action_buttons{
+	position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.dest_cont{
+
+}
+
+.dest_cont .checkbox{
+	display:inline;
+	width:30px !important;
 }
